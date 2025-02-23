@@ -1,0 +1,3 @@
+502	santosh	205
+302	krishna	3052100
+302	trsfg	365000

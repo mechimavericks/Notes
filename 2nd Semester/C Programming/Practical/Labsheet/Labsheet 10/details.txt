@@ -1,0 +1,2 @@
+2	santosh	60
+3	Anish	85
