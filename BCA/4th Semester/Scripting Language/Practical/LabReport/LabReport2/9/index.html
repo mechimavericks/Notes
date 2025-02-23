@@ -1,0 +1,24 @@
+<!-- Write a program that reads 10 words from user and outputs only those which have “b” in the beginning. -->
+<html>
+    <head>
+        <title>Name of Users</title>
+    </head>
+    <body>
+    </body>
+    <script>
+        let a=[];
+        let name=[]; let count=0;
+        for(let i=0;i<10;i++){
+            a[i]=prompt("Enter a Word");
+            if(a[i].startsWith("b")){
+                name[count]=a[i];
+                count++;
+            }
+        }
+        let nameList=""
+        for(let i=0;i<name.length;i++)
+            nameList+=name[i]+"\n";
+        alert(nameList);
+
+    </script>
+</html>

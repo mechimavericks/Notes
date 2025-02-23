@@ -1,0 +1,25 @@
+<!-- WAP to find simple interest. [si=(p*t*r)/100] -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+</head>
+<body>
+    Princial : <input type="number" id="n1" value="0"/><br/>
+    Time : <input type="number" id="n2" value="0"/><br/>
+    Rate : <input type="number" id="n3" value="0"/><br/>
+    <button onclick="calc()">Calculate</button>
+    <p> Interest = <span id="interest">0</span> </p>
+</body>
+<script>
+    function calc(){
+        let p=parseInt(document.getElementById("n1").value);
+        let t=parseInt(document.getElementById("n2").value);
+        let r=parseInt(document.getElementById("n3").value);
+        document.getElementById("interest").innerText=(p*t*r)/100;
+    }
+</script>
+</html>

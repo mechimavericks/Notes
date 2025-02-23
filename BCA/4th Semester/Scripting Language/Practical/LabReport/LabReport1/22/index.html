@@ -1,0 +1,19 @@
+<!--WAP to print following Fibonacci series. 1, 1, 2, 3, 5, 8, …….. upto 15 terms. -->
+<html>
+    <head>
+        <title>Fibonacci series</title>
+    </head>
+    <body>
+        <h1>Fibonacci Series</h1>
+        <h5 id="ser"></h5>
+    </body>
+    <script>
+        let a=1,b=0,c,fib="";
+        for(i=1;i<=15;i++){
+            c=a+b;
+            fib=fib+c+", ";
+            a=b; b=c;
+        }
+        document.getElementById("ser").textContent=fib;
+    </script>
+</html>

@@ -1,0 +1,18 @@
+<!-- Write a program to display a number randomly. The Random number should be generated when you click upon a link ‘Click Me’. If the number is less than 20 then show a alert box with a message “Hey (random Number) is less than 20”,and if the random number is greater than 20 then show a alert box with a message “Your(random Number) is greater than or equals to 20”. -->
+<html>
+    <head>
+        <title>Random Number Generator</title>
+    </head>
+    <body>
+        <button onclick="Rand()">Click Me</button>
+    </body>
+    <script>
+        let Rand=()=>{
+            let rand=Math.floor(Math.random()*100);
+            if(rand<20)
+                alert(`Hey ${rand} is less than 20.`);
+            else   
+                alert(`Your ${rand} is greater than or equals to 20.`);
+        }
+    </script>
+</html>

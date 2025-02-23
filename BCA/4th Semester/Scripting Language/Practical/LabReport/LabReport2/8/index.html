@@ -1,0 +1,18 @@
+<!-- Write a program in JavaScript to display multiplication table as follows. Take the number input from the user. E.g. Input number is 4. -->
+<html>
+    <head>
+        <title>Multiplication Table</title>
+    </head>
+    <body>
+        <div id="res"></div>
+    </body>
+    <script>
+        let n=Number(prompt("Enter a Number: "));
+        let table="<table border='1'><tr><th>Multiplicand</th><th>Multiplier</th><th>Product</th></tr>";
+        let row="",res="";
+        for(let i=1;i<=10;i++)
+            row=row+`<tr><td>${n}</td><td>${i}</td><td>${n*i}</td></tr>`;
+        res=table+row+"</table>";
+        document.getElementById("res").innerHTML=res;
+    </script>
+</html>

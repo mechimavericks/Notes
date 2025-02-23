@@ -1,0 +1,31 @@
+<!-- WAP to generate Armstrong number from 1 to 100 -->
+<html>
+
+<head>
+    <title>Armstrong Number</title>
+</head>
+
+<body>
+    <h2>Armstrong Number from 1 to 100:</h2>
+    <h3 id="res"></h3>
+</body>
+<script>
+    let result = "";
+    for(i=1;i<=100;i++){
+        let n = i;
+        let sum = 0;
+        let digit = 0;
+        while (n != 0) {
+            digit = n % 10;
+            sum = sum + (Math.pow(digit, 3));
+            n = Math.floor(n / 10);
+        }
+        if (sum === i){
+            result=result+i+"<br/>"
+        }
+        console.log(result)
+    }
+    document.getElementById("res").innerHTML=result;
+</script>
+
+</html>

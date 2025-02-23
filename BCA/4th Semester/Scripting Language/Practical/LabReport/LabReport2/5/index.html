@@ -1,0 +1,56 @@
+<!-- Create a calculator type form. It should contain three list boxes. The first and third list boxes should list the numbers 0 to 9. The middle list box should list the following mathematical operators: +, -, * & /. The user should be able to select the two numbers and the operation. Answer should be shown on submission of the form. -->
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        First Number: <select id="n1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select><br/>
+        Operator: <select id="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br/>
+        Second Number: <select id="n2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select><br/>
+        <button id="submit">Calculate</button>
+    </body>
+    <script>
+        document.getElementById("submit").addEventListener("click",()=>{
+            let a = Number(document.getElementById("n1").value);
+            let op = document.getElementById("operator").value;
+            let b = Number(document.getElementById("n2").value);
+            let res;
+            if(op=="+")
+                res=a+b;
+            else if(op=="-")
+                res=a-b;
+            else if(op=="*")
+                res=a*b;
+            else
+                res=a/b;
+            alert(`Result = ${res}`);
+        })
+    </script>
+</html>

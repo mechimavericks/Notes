@@ -1,0 +1,18 @@
+<!-- Write a program that reads 5 words from user (Use Prompt for receiving input) and displays the word that has ‘ha’ continuous character in between the words. -->
+<html>
+    <head><title>Filter Word</title></head>
+    <body>
+        <h1>Words that has 'ha'</h1>
+        <h2 id="res"></h2>
+    </body>
+    <script>
+        let list=[];
+        for(i=0;i<5;i++)
+            list[i]=prompt("Enter a Word");
+        let res="";
+        for(let i=0;i<list.length;i++)
+            if(list[i].includes('ha'))
+                res+=list[i]+"</br>"
+        document.getElementById("res").innerHTML=res;
+    </script>
+</html>

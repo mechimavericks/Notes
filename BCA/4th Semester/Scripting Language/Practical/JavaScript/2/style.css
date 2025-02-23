@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 100px;
+}
+.wrapper{
+    display: flex;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid #000;
+    background: lightslategray;
+    padding: 20px;
+
+}
+td{
+    height: 70px;
+    width: 70px;
+    padding: 5px;
+}
+button{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:active{
+    background: transparent;
+}
+#output{
+    height: 55px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+}

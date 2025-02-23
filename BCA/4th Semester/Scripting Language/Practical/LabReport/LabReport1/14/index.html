@@ -1,0 +1,23 @@
+<!-- . WAP to check whether a number a number is divisible by 7 but not by 13. -->
+<html>
+<head>
+    <title>Divisibe By 7 Not By 13 </title>
+</head>
+<body>
+    Enter a Number : <input type="number" id="n" value="0"/><br/>
+    <button onclick="calc()">Check</button>
+    <p> Result= <span id="res"></span> </p>
+</body>
+<script>
+    function calc(){
+        let a = document.getElementById("n").value;
+        let res=document.getElementById("res");
+        if(a%7==0 && a%13!=0)
+            res.innerHTML="Divisible by 7 not by 13";
+        else if(a%7==0 && a%13==0)
+            res.innerHTML="Divisible by 7 and 13";
+        else        
+            res.innerHTML="Not Divisible by 7";
+        }
+</script>
+</html>

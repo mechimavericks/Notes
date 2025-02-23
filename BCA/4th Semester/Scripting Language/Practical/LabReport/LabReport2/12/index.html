@@ -1,0 +1,18 @@
+<!-- Write a program that will change the background color in every 2 seconds. Use at least 6 colors. -->
+<html>
+    <head>
+        <title>Change Background Color</title>
+    </head>
+    <body> </body>
+    <script>
+        let body= document.getElementsByTagName("body");
+        let color=["red",'blue','green','yellow','brown','purple'];
+        let count=0;
+        setInterval(()=>{
+            if(count==color.length)
+                count=0;
+            body[0].style.background=color[count];
+            count++;
+        },2000)
+    </script>
+</html>

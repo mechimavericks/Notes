@@ -1,0 +1,20 @@
+<!-- Write a client side program to display the continuous Time in the status bar of the browser. Time should be updated every second. -->
+<html>
+    <head>
+        <title>Time</title>
+    </head>
+    <body>
+        <h1><span id="hrs">00</span>: <span id="min">00</span>: <span id="sec">00</span> </h1>
+    </body>
+    <script>
+        let hrs=document.getElementById("hrs");
+        let min=document.getElementById("min");
+        let sec=document.getElementById("sec");
+        setInterval(() => {
+            const date =new Date();
+            hrs.textContent=date.getHours();
+            min.textContent=date.getMinutes();
+            sec.textContent=date.getSeconds();
+        }, 1000);
+    </script>
+</html>

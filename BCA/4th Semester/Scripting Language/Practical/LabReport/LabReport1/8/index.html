@@ -1,0 +1,24 @@
+<!-- WAP to find smallest among two numbers -->
+<html>
+<head>
+    <title>Smallest Among Two Number</title>
+</head>
+<body>
+    Number 1 : <input type="number" id="n1" value="0"/><br/>
+    Number 2 : <input type="number" id="n2" value="0"/><br/>
+    <button onclick="calc()">Check</button>
+    <p> Smallest Number = <span id="num">0</span> </p>
+</body>
+<script>
+    function calc(){
+        let a = document.getElementById("n1").value;
+        let b = document.getElementById("n2").value;
+        if(a<b){
+            document.getElementById("num").innerHTML=a;
+        }
+        else{
+            document.getElementById("num").innerHTML=b;
+        }
+    }
+</script>
+</html>

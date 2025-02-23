@@ -1,0 +1,84 @@
+<!-- Create HTML form with fields Full Name, Address, Telephone, Gender, Email, Country and Comments. Write JavaScript program to validate that form so that user will only write correct values. Check for empty values, number, and email and focus them on receiving invalid values -->
+<html>
+
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <style>
+        p {
+            /* margin: 0; */
+            color: red;
+        }
+    </style>
+    <form name="form" onsubmit="return Validate()">
+        <p class="nameerr"></p>
+        Full Name: <input type="text" id="name" /> <br />
+        <p class="adderr"></p>
+        Address: <input type="text" id="add" /> <br />
+        <p class="phoneerr"></p>
+        Telephone: <input type="tel" id="phone" pattern="[0-9]{10}" /><br />
+        <p class="gendererr"></p>
+        <div>
+            Gender: <input type="radio" name="gender" id="g" value="male" />Male
+            <input type="radio" name="gender" id="g" value="female" />Female<br />
+        </div>
+        <p class="emailerr"></p>
+        Email: <input type="email" id="email" /><br />
+        <p class="countryerr"></p>
+        Country: <input type="text" id="country" /><br />
+        <p class="cmterr"></p>
+        Comments: <textarea id="cmt" cols="30" rows="10"></textarea><br />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+<script>
+    let flag = true;
+    function Error(selector, msg) {
+        document.querySelector("." + selector).textContent = msg;
+        flag = false;
+        if(!msg)
+            flag=true;
+    }
+    function Validate() {
+        let name = document.querySelector("#name").value;
+        let add = document.querySelector("#add").value;
+        let phone = document.querySelector("#phone").value;
+        let gender = document.form.gender.value; 
+        let email = document.querySelector("#email").value;
+        let country = document.querySelector("#country").value;
+        let cmt = document.querySelector("#cmt").value;
+        if (!name) {
+            Error("nameerr", "* Cannot Be Empty.")
+        } else
+            Error("nameerr", "")
+        if (!add) {
+            Error("adderr", "* Cannot Be Empty.")
+        } else
+            Error("adderr", "")
+        if (!phone) {
+            Error("phoneerr", "* Cannot Be Empty.")
+        } else
+            Error("phoneerr", "")
+        if (!gender) {
+            Error("gendererr", "* Cannot Be Empty.")
+        } else
+            Error("gendererr", "")
+        if (!email) {
+            Error("emailerr", "* Cannot Be Empty.")
+        } else
+            Error("emailerr", "")
+        if (!country) {
+            Error("countryerr", "* Cannot Be Empty.")
+        } else
+            Error("countryerr", "")
+        if (!cmt) {
+            Error("cmterr", "* Cannot Be Empty.")
+        }else{
+            Error("cmterr", "")
+        }
+        return flag;
+    }
+</script>
+
+</html>

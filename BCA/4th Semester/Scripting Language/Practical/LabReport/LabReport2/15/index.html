@@ -1,0 +1,31 @@
+<!-- Write a program to create two text boxes and two buttons. If the user inputs the value in first text box and click upon the button then the value entered into the first text box should be displayed into the second text box (in uppercase if the user have inputted in lowercase and vice versa), similarly for the second textbox similarly for the second text box. -->
+<html>
+    <head>
+        <title>Program</title>
+    </head>
+    <body>
+        Enter a Text: <input type="text" id="t1"/><br/>
+        <button onclick="Check1()">Submit</button><br/>
+        Enter a Text: <input type="text" id="t2"/><br/>
+        <button onclick="Check2()">Submit</button>
+    </body>
+    <script>
+        let txt1= document.getElementById("t1");
+        let txt2= document.getElementById("t2");
+        function Check1(){
+            let txtval=txt1.value;
+            if(txtval==txtval.toUpperCase())
+               txt2.value=txtval.toLowerCase();
+            else
+                txt2.value=txtval.toUpperCase();
+
+        }
+        function Check2(){
+            let txtval=txt2.value;
+            if(txtval==txtval.toUpperCase())
+               txt1.value=txtval.toLowerCase();
+            else
+                txt1.value=txtval.toUpperCase();
+            }
+    </script>
+</html>

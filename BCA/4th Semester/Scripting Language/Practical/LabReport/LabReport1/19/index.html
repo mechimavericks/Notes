@@ -1,0 +1,20 @@
+<!-- WAP to print first 15 even numbers. -->
+<html>
+    <head>
+        <title>Even Number</title>
+    </head>
+    <body>
+        <h1>First 15 Even Number</h1>
+        <h4 id="even"></h4>
+    </body>
+    <script>
+        let even="";
+        count=0;
+        for(i=1;count<15;i++)
+            if(!(i%2)){
+                even=even+i+", ";
+                count ++;
+            }
+        document.getElementById("even").textContent=even;
+    </script>
+</html>

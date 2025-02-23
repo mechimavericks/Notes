@@ -1,0 +1,20 @@
+<!-- Write a program which includes a function sum(). This function sum() should be designed to add an arbitrary list of parameters.(For e.g. if you call the function sum() as sum (2, 3) it should return the result 5 and if again you call the function sum() as sum(2,3,4) it should return the result 9). -->
+<html>
+    <head>
+        <title>Arbitrary Function</title>
+    </head>
+    <body>  </body>
+    <script>
+        sum(1,2);
+        sum(5,1,2);
+        sum(1,5,6,2);
+        sum(1,5,9,8,10);
+        function sum(){
+            let sum=0;
+            for(let i=0;i<arguments.length;i++){
+                sum+=arguments[i];
+            }
+            console.log("Sum = "+sum);
+        }
+    </script>
+</html>

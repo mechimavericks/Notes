@@ -1,0 +1,24 @@
+<!-- WAP to read a no. & find out if it is Armstrong no. or not -->
+<html>
+    <head>
+        <title>Check Armstrong or Not</title>
+    </head>
+    <body>
+    </body>
+    <script>
+        let n = Number(prompt("Enter a Number?"));
+            let temp=n;
+            let sum = 0;
+            let digit =0;
+            while(n!=0){
+                digit = n%10;
+                console.log(digit)
+                sum=sum + (Math.pow(digit,3));
+                n=Math.floor(n/10);
+            }
+            if(temp===sum)
+                alert("Armstrong Number.");
+            else   
+                alert("Not Armstrong Number.");
+    </script>
+</html>
