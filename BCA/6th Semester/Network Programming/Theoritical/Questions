@@ -1,0 +1,45 @@
+Questions:
+Unit 2 : Internet Address 
+	- Program to Demonstrate the Different getter Method(getByName(),getByHost(),getLocalHost())
+	- Program to Check IPV4 or IPV6
+	- Program to List all the interface. 
+
+Unit 3 : URLs and URIs
+	- Program to Split URl(.getHost(),.getPort(),.getQuery(),.getPath())
+	- Reading Data from the URL(And Aslo Printig Source Code)
+	- Resolve the Two URL(Base URL and Relative URL)
+	- Compare Two URLs
+	- URLEncoder and URLDecoder Program
+
+Unit 4 : HTTP
+	- Program to Demonstrate CookieManager and CookieStore
+	
+Unit 5 : URL Connections
+	- Reading Data from the URL(And Aslo Printig Source Code)
+	- Program to Print Aribtrary HTTP Header
+	- Program to Dispaly Header
+	
+Unit 6 : Socket for Clients
+	- Client Socket Program to Read the Data From the Server and Write Data to the Server.
+	- Program to Display the Socket Information(Address,Port,LocalHost,LocalPort)
+	
+Unit 7 : Socket for Servers
+	- Server Socket Program to Send the data to Client and Read the Data from the Client.
+	- Create Two Way Communication Chat Application(Using Client Socket and Server Socket)
+	- Create the Multi-Threaded DayTime Server(Server that Sents the Date and Time to the Client When Request)
+	
+Unit 10 : UDP
+	- UDP Client Program to Send and Receive the Data.
+	- UDP Server Program to Send and Receive the Data.
+
+Unit 11 : IP Multicast
+	- Demonstrate Multicast Messaging (Client and Server Program)
+
+Unit 12 : RMI 
+	- Program to Demonstrate the RMI Program (Specially Addition Program)
+	
+	
+	
+	
+	
+	 
