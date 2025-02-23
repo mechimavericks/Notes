@@ -1,0 +1,15 @@
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.AssemblyInfoInputs.cache
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.AssemblyInfo.cs
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.csproj.CoreCompileInputs.cache
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.sourcelink.json
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/bin/Debug/net8.0/NamespaceTest
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/bin/Debug/net8.0/NamespaceTest.deps.json
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/bin/Debug/net8.0/NamespaceTest.runtimeconfig.json
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/bin/Debug/net8.0/NamespaceTest.dll
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/bin/Debug/net8.0/NamespaceTest.pdb
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.dll
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/refint/NamespaceTest.dll
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.pdb
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/NamespaceTest.genruntimeconfig.cache
+/home/wabisabi/Desktop/BCA Practical/DotNet/8/NamespaceTest/obj/Debug/net8.0/ref/NamespaceTest.dll

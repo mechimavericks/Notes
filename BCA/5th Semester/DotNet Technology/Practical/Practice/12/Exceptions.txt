@@ -1,0 +1,9 @@
+Exception Class: 
+    - DivideByZeroException
+    - ArithmeticException
+    - IndexOutOfRangeException
+    - ArrayTypeMismatchException
+    - NullRefferenceException
+    - IOException 
+    - SQLException
+    and So on...
