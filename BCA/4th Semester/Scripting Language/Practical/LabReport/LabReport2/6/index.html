@@ -1,0 +1,23 @@
+<!-- Create an HTML code and JavaScript script that include a form with three input fields. The relationship of the value of the fields in that second field is twice the value of the first field. And the third field is square of the first field. First and Second field should be disable in nature. -->
+<html>
+    <head>
+        <title>HTML Code</title>
+    </head>
+    <body>
+        First Field: <input type="number" value="0" id="n1" disabled><br/>
+        Second Field: <input type="number" value="0" id="n2" disabled><br/>
+        Third Field: <input type="number" value="0" id="n3"><br/>
+    </body>
+    <script>
+        let n1El=document.getElementById("n1");
+        let n2El=document.getElementById("n2");
+        let n3El=document.getElementById("n3");
+        n3El.addEventListener("change",function(){
+            let n1=n1El.value;
+            let n2=n2El.value;
+            let n3=n3El.value;
+            n1El.value=Math.sqrt(n3);
+            n2El.value=2*(Math.sqrt(n3));
+        })
+    </script>
+</html>

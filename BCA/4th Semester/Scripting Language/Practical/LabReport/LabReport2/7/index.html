@@ -1,0 +1,17 @@
+<!-- Write a program using JavaScript to find the sum of odd numbers from 0 to 200. -->
+<html>
+    <head>
+        <title>Sum of Odd Numbers</title>
+    </head>
+    <body>
+        <h1>Sum of Odd Numbers from 0 to 200</h1>
+        <h1>Result = <span id="res"></span></h1>
+    </body>
+    <script>
+        let sum=0;
+        for(i=0;i<=200;i++)
+            if(i%2)
+                sum=sum+i;
+        document.getElementById("res").textContent=sum;
+    </script>
+</html>

@@ -1,0 +1,22 @@
+<!-- WAP to find area of circle. [area=pi*r*r] (use pi as constant) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Circle</title>
+</head>
+<body>
+    Radius : <input type="number" id="r" value="0"/><br/>
+    <button onclick="calc()">Calculate</button>
+    <p> Area = <span id="area">0</span> </p>
+</body>
+<script>
+    const pi=3.14;
+    function calc(){
+        let r = document.getElementById("r").value;
+        document.getElementById("area").textContent= pi*r*r;
+    }
+</script>
+</html>

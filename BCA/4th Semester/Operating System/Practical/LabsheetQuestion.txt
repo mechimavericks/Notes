@@ -1,0 +1,28 @@
+BCA OS Lab Sheet Questions
+Lab - 1 Title: Creation of Process 
+1. WAP to create a process and display process id.
+
+Lab - 2 Title: Basic Linux Commands 
+1. Write syntax, example and description of basic linux commands.
+
+Lab - 3 Title: Simulation of Process Scheduling Algorithms
+1. WAP to simulate FCFS  process scheduling algorithm.
+2. WAP to simulate SJF  process scheduling algorithm.
+3. WAP to simulate Priority  process scheduling algorithm.
+4. WAP to simulate Round Robin  process scheduling algorithm.
+
+Lab - 4 Title: Simulation of Bankers Algorithm
+1. WAP to simulate bankers algorithm.
+
+Lab - 5 Title: Simulation of Page Replacement Algorithms
+1. WAP to simulate FIFO  page replacement algorithm.
+2. WAP to simulate LRU  page replacement algorithm.
+3. WAP to simulate Optimal  page replacement algorithm.
+
+Lab - 6 Title: Simulation of Disk Scheduling Algorithms
+1. WAP to simulate FCFS  disk scheduling algorithm.
+2. WAP to simulate SSTF  disk scheduling algorithm.
+3. WAP to simulate SCAN  disk scheduling algorithm.
+4. WAP to simulate C-SCAN  disk scheduling algorithm.
+5. WAP to simulate LOOK  disk scheduling algorithm.
+6. WAP to simulate C-LOOK  disk scheduling algorithm.

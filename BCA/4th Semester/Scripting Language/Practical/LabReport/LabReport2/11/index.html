@@ -1,0 +1,15 @@
+<!-- Write a program that displays the continuous time in the web page. The Time should be in the format of HH:MM:SS. [Hints use setTimeOut/setInterval function -->
+<html>
+    <head>
+        <title>Display Time</title>
+    </head>
+    <body>
+        <h1>Time</h1>
+        <h2 id="res"></h2>
+    </body>
+    <script>
+        setInterval(function(){
+            document.getElementById("res").textContent=(new Date).toLocaleTimeString();
+        },1000);
+    </script>
+</html>

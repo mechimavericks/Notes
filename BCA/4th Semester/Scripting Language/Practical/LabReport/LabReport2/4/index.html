@@ -1,0 +1,21 @@
+<!-- Write a JavaScript program that will ask a value and store them in a cookie which need to be expire in an hour. After storing the value; upon clicking ‘show’ button alert the stored value -->
+<html>
+    <head>
+        <title>Cookie</title>
+    </head>
+    <body>
+        <button id="btn">Show</button>
+    </body>
+    <script>
+        let val=prompt("Enter a Value.");
+        document.cookie=val+"; expires="+new Date().getTime()+3600;
+        let cookie = document.cookie.split(";");
+        document.getElementById("btn").addEventListener("click",()=>{
+            let cookies ="";
+            for(let i in cookie)
+                cookies+=cookie[i]+"\n";
+            alert(`Cookies are \n ${cookies}`)
+        })
+
+    </script>
+</html>

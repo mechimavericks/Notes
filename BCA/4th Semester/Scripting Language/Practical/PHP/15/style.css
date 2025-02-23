@@ -1,0 +1,115 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #2c3e50;
+    color: #fff;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    text-indent: 15px;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 15px;
+}
+h1{
+    text-transform: uppercase;
+    margin: 10px 0px;
+    filter: drop-shadow(0px 0px 10px #000000);
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 20px;
+    text-indent: 10px;
+    font-family: cursive;
+}
+input,textarea{
+    padding: 10px 5px;
+    margin-bottom:10px ;
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    outline:none;   
+    font-size: 18px; 
+}
+textarea{
+    height: 200px;
+}
+::placeholder{
+    font-size: 18px;
+    color: #000;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+   padding: 0px 10px;
+}
+button,button:hover:not(send){
+    margin: 10px 0px;
+    background: #3498db;
+    border: 2px solid #fff;
+    padding: 8px 20px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    border-radius:10px ;
+    transition: all .2s linear;
+}
+button:nth-child(1),button:hover:nth-child(2){
+    background: #1abc9c
+}
+#submit{
+    display: none;
+}
+footer h6{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px 10px;
+}
+footer h6 span a{
+    color: #92ebcd;
+    font-weight: bold;
+    text-decoration: none;
+}
+.problem{
+    text-align: center;
+    margin: 10px 0;
+}
+.problem a{
+    color: #f0f8ff;
+    text-decoration: none;
+}
+@media screen and (max-width:650px) {
+    h1{
+        font-size: 26px;
+    }
+    form{
+        width: 90%;
+    }
+    input,textarea{
+        width: 100%; 
+    }
+    textarea{
+        height: 130px;
+    }
+}
+@media screen and (max-width:250px) {
+   .buttons{
+    flex-direction: column;
+   }
+}

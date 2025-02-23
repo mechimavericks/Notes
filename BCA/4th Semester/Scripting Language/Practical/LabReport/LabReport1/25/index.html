@@ -1,0 +1,23 @@
+<!-- WAP to print Prime Number from 1 to 100 -->
+<html>
+    <head>
+        <title>Prime Number from 1 to 100</title>
+    </head>
+    <body>
+        <h4>Prime Number from 1 to 100 are: </h4>
+        <p id="res"></p>
+    </body>
+    <script>
+        let prime="";
+        for(i=1;i<=100;i++){
+            count=0;
+            for(j=2;j<i;j++){
+                if(i%j==0)
+                    count++;
+            }
+            if(count==0)
+               prime=prime+i+"<br/>";
+        }
+        document.getElementById("res").innerHTML=prime;
+            </script>
+</html>

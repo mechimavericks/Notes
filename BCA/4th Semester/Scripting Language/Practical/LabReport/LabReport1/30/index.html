@@ -1,0 +1,45 @@
+<!-- Write a program to display output like the following:
+N 10 * N 100 * N 1000 * N
+1 10 100 1000
+2 20 200 2000
+3 30 300 3000
+You should ask the starting and ending value for N and the table should be displayed dynamically
+according to the value inputted by the user. -->
+<html>
+    <head>
+        <title>Table</title>
+    </head>
+    <body>
+        Starting Value: <input type="number" value="1" id="sn"/><br/>
+        Ending Value: <input type="number" value="1" id="en"/><br/>
+        <button onclick="generate()">Generate</button>
+        <div id="result"></div>
+    </body>
+    <script>
+        function generate(){
+            let sn=Number(document.getElementById("sn").value);
+            let en=Number(document.getElementById("en").value);
+            let upper = "<table border='1'><tr><th>N</th><th>10 * N</th><th>100 * N</th> <th>1000 * N</th></tr>"
+            let middle = "";
+            for(let i=sn;i<=en;i++){
+                middle = middle +`<tr><td>${i}</td><td>${10*i}</td><td>${100*i}</td><td>${1000*i}</td></tr>`;
+            }
+            let lower = "</table>"
+            document.getElementById("result").innerHTML=upper+middle+lower;
+        }
+
+
+
+
+        //You can also try this one
+   /*      function generate1(){
+            let sn=Number(document.getElementById("sn").value);
+            let en=Number(document.getElementById("en").value);
+            document.write("<table border='1'><tr><th>N</th><th>10 * N</th><th>100 * N</th> <th>1000 * N</th></tr>");
+            for(let i=sn;i<=en;i++){
+                document.write(`<tr><td>${i}</td><td>${10*i}</td><td>${100*i}</td><td>${1000*i}</td></tr>`);
+            }
+            document.write("</table>")
+       }        */
+    </script>
+</html>

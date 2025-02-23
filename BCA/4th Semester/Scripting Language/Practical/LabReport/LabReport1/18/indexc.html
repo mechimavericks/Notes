@@ -1,0 +1,22 @@
+<!-- WAP to print following series.
+a. 5, 10, 15, 20, …… 50
+b. 1, 4, 9, 16, ….. upto 20 terms.
+c. 100, 98, 96, 94, …………. Upto 10 terms. -->
+<html>
+    <head>
+        <title>Printing Series</title>
+    </head>
+    <body>
+        <h2>Series</h2>
+        <h4 id="series"></h4>
+    </body>
+    <script>
+        let ser="";
+        let num=100;
+        for(i=1;i<=10;i++){
+            ser=ser+num+",   ";
+            num-=2;
+        }
+        document.getElementById("series").textContent=ser;
+    </script>
+</html>

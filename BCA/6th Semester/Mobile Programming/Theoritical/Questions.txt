@@ -1,0 +1,31 @@
+Unit - 3
+    - Linear Layout
+    - TextView, EditText, CheckBox, RadioButton, Spinner
+    - Event Handeling 
+
+
+Unit - 4 
+    - Sending the Data Between the Activity
+
+Unit - 5
+    - Fragment Manager 
+    - Menu (Option, Popup, Context)
+    - Dialogs (Alert Dialog and Custom Dialog)
+
+Unit - 6
+    - ListView, Grid View and Recycler View (Mostly ListView)
+
+Unit - 7 
+    - CRUD(Create, Read, Update, Delete) Operation with SQLite Database (Mainly Create and Read)
+    - Sending Data to Server
+    - Receiving data from Server
+    - Integrating Google Maps in Android Application
+
+Unit - 8
+    - Swift Programming Language(up to Creating Functions)
+            - variable declearation
+            - looping
+            - Different Operations
+            - Functions
+
+

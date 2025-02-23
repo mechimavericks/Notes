@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Demo</title>
+</head>
+<body>
+    <h1 id="welcome"></h1>
+    <button onclick="Read()">Get Message</button>
+    <script>
+        function Read(){
+            xhr=new XMLHttpRequest();
+            xhr.open("GET","info.php?fName=Santosh&lName=Bhandari");
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState===4 && xhr.status===200)
+                    document.getElementById("welcome").innerHTML=xhr.responseText;
+            }
+            xhr.send();
+        }
+    </script>
+</body>
+</html>

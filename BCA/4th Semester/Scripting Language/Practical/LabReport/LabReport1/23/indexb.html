@@ -1,0 +1,26 @@
+<!-- . WAP to print following pattern.
+a. *    b. *****    c. 1         d. 1       e. 1
+    **      ****       12           22         10
+    ***      ***       123          333        101
+    ****      **       1234         4444       1010
+    *****      *       12345        55555      10101 -->
+    <html>
+        <head>
+            <title>Pattern</title>
+        </head>
+        <body>
+            <h1>Pattern</h1>
+            <p><pre id="res"></pre></p>
+        </body>
+        <script>
+            let pat="";
+            for(i=5;i>1;i--){
+                for(k=1;k<=5-i;k++)
+                    pat=pat+" ";
+                for(j=1;j<=i;j++)
+                    pat=pat+"*";
+                pat=pat+"<br/>";
+            }
+            document.getElementById("res").innerHTML=pat;
+        </script>
+    </html>  

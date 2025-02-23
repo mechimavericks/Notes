@@ -1,0 +1,22 @@
+<!-- WAP to calcualte coumpount interest for the given principle, No. of Years and rate of Interst. -->
+<html>
+    <head>
+        <title>Calcualte Compunt Interest</title>
+    </head>
+    <body>
+        Principle: <input type="number" id="p"><br/>
+        Years: <input type="number" id="y"><br/>
+        Rate: <input type="number" id="r"><br/>
+        <button onclick="calc()">Calculate</button>
+        <p>Interst  = <span id="res"></span></p>
+    </body>
+    <script>
+        function calc(){
+            let p = document.querySelector("#p").value;
+            let r = document.querySelector("#r").value;
+            let y = document.querySelector("#y").value;
+            let ci=(p*(Math.pow((1+r/100),y)-1)).toFixed(2);
+            document.getElementById("res").textContent=ci;
+        }
+    </script>
+</html>

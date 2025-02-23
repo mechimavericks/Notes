@@ -1,0 +1,23 @@
+<!-- Write a program which includes a function add (). It should take arbitrary number of parameters and return the result by adding all the parameters. Use browser message box to display the output. -->
+<html>
+    <head>
+        <title>Addition</title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+        let data = prompt("Enter the Number You Want to Add(use , to seprate)");
+        let dataarr=data.split(",");
+        let arr=[];
+        for(let d of dataarr)
+            arr.push(parseInt(d));
+        alert(`Sum of Given Numbers = ${add(...arr)}`);
+        function add(...parameters){
+            let sum=0;
+            for(let i of parameters)
+                sum+=i;
+            return sum;
+        }
+    </script>
+</html>
