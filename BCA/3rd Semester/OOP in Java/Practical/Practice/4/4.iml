@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Calculator Using Switch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Check ODD or Even" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Largest among 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Positive or Negative" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vowel or Consonant Using Switch" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
