@@ -9,8 +9,8 @@ This repository contains a collection of notes for various subjects across multi
   - [BBA](#bba)
   - [BScCSIT](#bsccsit)
 - [Contributing](#contributing)
-- [Code of Conduct](#code-of-conduct)
 - [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 This repository is designed to help you keep track of your learning and notes on different subjects. Feel free to contribute and enhance the content.
