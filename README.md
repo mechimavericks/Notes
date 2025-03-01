@@ -35,10 +35,20 @@ This repository is designed to help you keep track of your learning and notes on
 **Currently Not Available**
 
 ## Contributing
-Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this repository.
-
-## Code of Conduct
-This project adheres to a Code of Conduct. By participating, you are expected to uphold this code. Please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file for more details.
+We welcome contributions! Feel free to submit a pull request or open an issue if you find bugs or want to add new features. Check out the [Contributing Guidelines](Contribution.md) for more information.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any inquiries or support, please reach out at:
+- **GitHub**: [@mechimavericks](https://github.com/mechimavericks)
+
+---
+
+### If you like this project, don't forget to give it a ⭐ and share it with others!
+
+### Maintain By Mechi Mavericks❤️ 
+
+### Keep Coding Keep Smiling
+
