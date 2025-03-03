@@ -20,12 +20,12 @@ This repository is designed to help you keep track of your learning and notes on
 ### BCA
 
 #### BCA 1st Semester
-- [1st Semester](BCA/1st%20semester/)
-- [2nd Semester](BCA/2nd%20semester/)
-- [3rd Semester](BCA/3rd%20semester/)
-- [4th Semester](BCA/4th%20semester/)
-- [5th Semester](BCA/5th%20semester/)
-- [6th Semester](BCA/6th%20semester/)
+- [1st Semester](BCA/1st%20Semester/)
+- [2nd Semester](BCA/2nd%20Semester/)
+- [3rd Semester](BCA/3rd%20Semester/)
+- [4th Semester](BCA/4th%20Semester/)
+- [5th Semester](BCA/5th%20Semester/)
+- [6th Semester](BCA/6th%20Semester/)
 
 ### BBA
 
