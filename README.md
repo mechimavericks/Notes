@@ -26,6 +26,7 @@ This repository is designed to help you keep track of your learning and notes on
 - [4th Semester](BCA/4th%20Semester/)
 - [5th Semester](BCA/5th%20Semester/)
 - [6th Semester](BCA/6th%20Semester/)
+- [7th Semester](BCA/7th%20Semester/)
 
 ### BBA
 
